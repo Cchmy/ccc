@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/look/look",
+    "pages/me/me",
+    "pages/weixin/weixin"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"black"
+  },
+  "tabBar": {
+    "color":"black",
+    "selectedColor": "green",
+    "backgroundColor": "white",
+
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"微信",
+        "iconPath":"pages/images/02.png",
+        "selectedIconPath":"pages/images/01.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "通讯录",
+        "iconPath": "pages/images/06.png",
+        "selectedIconPath": "pages/images/05.png"
+      },
+      {
+        "pagePath": "pages/look/look",
+        "text": "发现" ,
+        "iconPath": "pages/images/04.png",
+        "selectedIconPath": "pages/images/03.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "pages/images/08.png",
+        "selectedIconPath": "pages/images/07.png"
+      }
+    ]
+  }
+}

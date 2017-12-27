@@ -1,0 +1,7 @@
+#sousuo{
+  width: 95%;
+  height: 30rpx;
+  border: 1rpx solid gainsboro;
+  margin: 15rpx auto;
+  border-radius: 10rpx;
+}
